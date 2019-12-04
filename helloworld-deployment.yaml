@@ -11,7 +11,7 @@ spec:
     spec:
       containers:
         - name: helloworld
-          image: gupguru/dotnet-core-helloworld:latest
+          image: gupguru/dotnet-core-helloworld:1.0
           ports:
             - name: http-port
               containerPort: 80
