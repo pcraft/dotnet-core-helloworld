@@ -6,14 +6,14 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace dotnet_core_helloworld.Controllers
 {
-    [Route("kubernetes")]
+    [Route("/")]
     [ApiController]
-    public class KubernetesController : ControllerBase
+    public class DefaultController : ControllerBase
     {
         [HttpGet]
         public ActionResult<string> Get()
         {
-            return "Hello World! - Kubernetes";
+            return "Hello World! - Default";
         }
     }
 }
